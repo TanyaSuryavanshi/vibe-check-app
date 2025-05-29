@@ -1,0 +1,40 @@
+.vibe-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  margin-top: 2rem;
+  animation: fadeIn 0.4s ease-in-out;
+  font-family: "Segoe UI", sans-serif;
+  transition: transform 0.3s ease;
+
+  h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+
+  .mantra {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #888;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
